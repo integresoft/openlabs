@@ -1,0 +1,83 @@
+.specf > input{
+    border:none;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    outline:none;
+    width:75%;
+    padding:15px;
+  }
+  .specf{
+    width:25%;
+    float:left;
+    text-align:center;
+    box-shadow: 10px 10px 5px 0px #aaaaaa;
+    
+  }
+  
+  
+  
+  .specf > h1, input::-webkit-input-placeholder, button {
+    font-family:'Rajdhani';
+    transition: all 0.3s ease-in-out;
+  }
+  .specf > h1 {
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    background: rgb(34, 34, 34);
+    color: white;
+    line-height: 150%;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  form {
+    box-sizing: border-box;
+    width: 260px;
+    margin: 100px auto 0;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 40px;
+    border-radius: 3px;
+  }
+  form h1 {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  input {
+    margin: 40px 25px;
+    width: 200px;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px rgb(34, 34, 34);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, rgb(43,43,43) 4%);
+    background-position: -400px 0;
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    color: rgb(53, 53, 53);
+  }
+  input:focus, input:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+  }
+  input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+    color: rgb(29, 29, 29);
+    font-size: 11px;
+    transform: translateY(-15px);
+    visibility: visible !important;
+  }
+  button {
+    border: none;
+    background: rgb(19, 19, 19);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 16px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  }
